@@ -1,10 +1,9 @@
-import { useEffect, useState } from "react"
-//import { getProducts } from "../../asyncMock"
+import { useEffect, useState } from "react";
 import { collection, getDocs } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 import { db } from "../../Config/firebaseConfig";
 import './MapsMock.css'
 import { ItemCount } from "../ItemCount/ItemCount";
-//import ItemList from "../ItemList/ItemList";
+
 
 
 export const MapsMock =  () => {
